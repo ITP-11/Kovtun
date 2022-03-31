@@ -1,0 +1,20 @@
+table td {
+  /*padding: 20px;*/
+  padding-left: 7px;
+  padding-right: 7px;
+  height: 15px;
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+input {
+  width: 30px;
+}
+
+#main {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
