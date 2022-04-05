@@ -1,0 +1,21 @@
+#main {
+    display: grid;
+    justify-content: center;
+}
+label {
+    display: grid;
+    justify-content: space-between;
+}
+
+#physicMainDiv {
+    display: grid;
+    grid-template-columns: repeat(40, 2vw);
+}
+.physicDiv {
+    width: 2vw;
+    height: 2vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: black 2px solid;
+}
