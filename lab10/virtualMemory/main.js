@@ -30,7 +30,7 @@ function drawMainMenu() {
     const nameInput = document.createElement("input");
     nameLabel.innerText = `Название`;
     addBtn.innerText = "Добавить процесс";
-    sizeLabel.innerText = "Размер сегмента данных"
+    sizeLabel.innerText = "Размер процесса (КБ)"
     addBtn.addEventListener("click", () =>addProcess(nameInput.value, sizeInput.value));
     nameLabel.appendChild(nameInput);
     sizeLabel.appendChild(sizeInput);
