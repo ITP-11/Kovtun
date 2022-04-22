@@ -1,0 +1,33 @@
+#form {
+  display: grid;
+  justify-content: space-around;
+  justify-items: end;
+}
+
+#diskDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.disk {
+  display: grid;
+  height: 2vh;
+  width: 60px;
+  background-color: wheat;
+  border: 1px black solid;
+  justify-content: center;
+}
+
+.folderLi,
+#list {
+  display: list-item;
+}
+
+/* li.folderLi::marker {
+  content: url(./unnamed.jpg);
+} */
+ul li::marker {
+  color: red;
+}

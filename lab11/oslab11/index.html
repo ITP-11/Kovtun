@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="form">
+      <label>
+        Введите название файла
+        <input type="text" id="fileNameInput" />
+      </label>
+      <label>
+        Введите папку (необязательно)
+        <input type="text" id="fileFolderInput" />
+      </label>
+      <label>
+        Введите размер файла
+        <input type="number" id="fileSizeInput" />
+      </label>
+      <button id="sendFile">Добавить файл</button>
+      <label>
+        <input type="text" id="deleteId" />
+        <button id="deleteButton">Удалить файл</button>
+      </label>
+      <button id="defragmentationButton">Дефрагментация</button>
+    </div>
+    <div id="root"></div>
+    <p id="counterFreeSpace"></p>
+    <div id="diskDiv"></div>
+    <script rel="script" src="main.js"></script>
+  </body>
+</html>
